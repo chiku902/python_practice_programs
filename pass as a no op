@@ -1,0 +1,14 @@
+# Read number of words
+n = int(input())
+
+count = 0
+vowels = "aeiouAEIOU"
+
+for _ in range(n):
+    word = input()
+    if word[0] in vowels:
+        count += 1
+    else:
+        pass   # explicitly do nothing for non-vowel words
+
+print(count)
