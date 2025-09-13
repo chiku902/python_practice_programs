@@ -1,0 +1,6 @@
+Read a score 0 100. Print 'A' for 90+, 'B' for 80 89, 'C' for 70 79, 'D' for 60 69, else
+'F'.
+Sample Input:
+83
+Expected Output:
+B
