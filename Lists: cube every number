@@ -1,0 +1,11 @@
+# Read number of integers
+n = int(input())
+
+# Build list of cubes
+cubes = []
+for _ in range(n):
+    num = int(input())
+    cubes.append(num ** 3)
+
+# Print the list
+print(cubes)
