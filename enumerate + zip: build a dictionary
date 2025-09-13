@@ -1,0 +1,7 @@
+Read two equal length lines of words. Use zip to pair them and enumerate to produce
+indices. Build dict {index: 'a->b'} and print it.
+Sample Input:
+red green blue
+R G B
+Expected Output:
+{0: 'red->R', 1: 'green->G', 2: 'blue->B'}
