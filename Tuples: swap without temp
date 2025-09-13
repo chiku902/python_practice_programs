@@ -1,0 +1,9 @@
+# Read inputs
+a = int(input())
+b = int(input())
+
+# Swap using tuple unpacking
+a, b = b, a
+
+# Print result on one line
+print(a, b)
