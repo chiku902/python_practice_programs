@@ -1,0 +1,9 @@
+# Read integer
+x = int(input())
+
+# Read floating-point number
+y = float(input())
+
+# Print their types
+print(type(x))
+print(type(y))
