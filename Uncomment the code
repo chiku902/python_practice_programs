@@ -1,0 +1,12 @@
+# Read number of lines
+n = int(input())
+
+for _ in range(n):
+    line = input()
+    # Split at '#' and take the part before it
+    line = line.split('#', 1)[0]
+    # Remove trailing spaces
+    line = line.rstrip()
+    # Print the cleaned line if not empty
+    if line:
+        print(line)
