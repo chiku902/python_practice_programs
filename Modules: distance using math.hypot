@@ -1,0 +1,11 @@
+import math
+
+# Read inputs
+x = float(input())
+y = float(input())
+
+# Compute distance from origin
+distance = math.hypot(x, y)
+
+# Print with 3 decimal places
+print(f"{distance:.3f}")
