@@ -1,0 +1,11 @@
+# Read k
+k = int(input())
+
+# Read line of words
+words = input().split()
+
+# Filter words with length > k
+filtered = list(filter(lambda w: len(w) > k, words))
+
+# Print result
+print(filtered)
