@@ -1,0 +1,24 @@
+# Define Bank class
+class Bank:
+    def __init__(self):
+        self.__balance = 0   # private variable
+
+    # Method to deposit money
+    def deposit(self, amount):
+        self.__balance += amount
+
+    # Getter for balance
+    def get_balance(self):
+        return self.__balance
+
+# Create instance
+b = Bank()
+
+# Deposit 150
+b.deposit(150)
+
+# Safe access via getter
+print(b.get_balance())
+
+# Direct access using name mangling (for learning only)
+print(b._Bank__balance)
