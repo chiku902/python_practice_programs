@@ -1,0 +1,6 @@
+# Read inputs
+name = input()
+price = float(input())
+
+# Print formatted output
+print(f"Item: {name} | Price: ${price:.2f}")
