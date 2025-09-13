@@ -1,0 +1,18 @@
+# Read inputs
+op = input()
+a = int(input())
+b = int(input())
+
+# Compute result using match-case
+match op:
+    case "add":
+        print(a + b)
+    case "sub":
+        print(a - b)
+    case "mul":
+        print(a * b)
+    case "div":
+        if b == 0:
+            print("err")
+        else:
+            print(a
