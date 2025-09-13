@@ -1,0 +1,9 @@
+total = 0
+
+while True:
+    n = int(input())
+    if n == 0:      # stop when 0 appears
+        break
+    total += n      # add to sum if not zero
+
+print(total)
