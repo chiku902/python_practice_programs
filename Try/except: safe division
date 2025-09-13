@@ -1,0 +1,9 @@
+# Read inputs
+a = float(input())
+b = float(input())
+
+# Check for division by zero
+if b == 0:
+    print("Cannot divide by zero")
+else:
+    print(a / b)
