@@ -1,0 +1,14 @@
+# Read two strings
+a = input()
+b = input()
+
+# Convert to integers
+a = int(a)
+b = int(b)
+
+# Perform operations
+print(a + b)   # addition
+print(a - b)   # subtraction
+print(a * b)   # multiplication
+print(a // b)  # integer division
+print(a / b)   # float division
