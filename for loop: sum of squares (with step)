@@ -1,0 +1,8 @@
+Read start, end, step. Using a for loop, sum i*i for i in range(start, end+1, step).
+Print the sum.
+Sample Input:
+1
+7
+2
+Expected Output:
+35
