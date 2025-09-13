@@ -1,0 +1,17 @@
+# Function to add words safely (avoiding mutable default trap)
+def add_words(x, bucket=None):
+    if bucket is None:
+        bucket = []
+    bucket.extend(x.split(","))
+    return bucket
+
+# Read two lines
+line1 = input()
+line2 = input()
+
+# Call function twice
+result = add_words(line1)
+result = add_words(line2, result)
+
+# Print final list
+print(result)
