@@ -1,0 +1,17 @@
+# Read list length
+n = int(input())
+
+# Read list of n integers
+arr = list(map(int, input().split()))
+
+# Read k
+k = int(input())
+
+# Handle k larger than n
+k = k % n  
+
+# Rotate using slicing
+rotated = arr[-k:] + arr[:-k]
+
+# Print result
+print(rotated)
