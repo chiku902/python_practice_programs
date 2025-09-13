@@ -1,0 +1,10 @@
+# Read two lines of integers
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
+
+# Convert to sets
+setA = set(A)
+setB = set(B)
+
+# Intersection
+intersection = sorted(setA & set
