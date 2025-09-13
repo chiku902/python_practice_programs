@@ -1,0 +1,10 @@
+# Read boolean inputs as strings and convert to bool
+a = input() == "True"
+b = input() == "True"
+c = input() == "True"
+
+# Compute expression
+result = (a and not b) or c
+
+# Print result
+print(result)
