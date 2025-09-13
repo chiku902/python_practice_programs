@@ -1,0 +1,16 @@
+# Read a line of text
+line = input()
+
+# Convert to lowercase and split into words
+words = line.lower().split()
+
+# Count frequencies
+freq = {}
+for w in words:
+    freq[w] = freq.get(w, 0) + 1
+
+# Sort keys and build new dict
+sorted_freq = {k: freq[k] for k in sorted(freq)}
+
+# Print result
+print(sorted_freq)
