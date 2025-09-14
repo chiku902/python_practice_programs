@@ -7,4 +7,4 @@ setA = set(A)
 setB = set(B)
 
 # Intersection
-intersection = sorted(setA & set
+intersection = sorted(setA & set)
